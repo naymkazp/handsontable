@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("../../handsontable")) : factory(root["Handsontable"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE__3__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE__1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 17);
+/******/ 	return __webpack_require__(__webpack_require__.s = 15);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -99,71 +99,123 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 1:
 /***/ (function(module, exports) {
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
+module.exports = __WEBPACK_EXTERNAL_MODULE__1__;
 
 /***/ }),
 
-/***/ 17:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 15:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _handsontable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _handsontable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_handsontable__WEBPACK_IMPORTED_MODULE_0__);
+/**
+ * @preserve
+ * Authors: Alexey Rogachev
+ * Last updated: Feb 28, 2018
+ *
+ * Description: Definition file for Russian - Russia language-country.
+ */
 
 
-var _interopRequireDefault = __webpack_require__(1);
+const C = _handsontable__WEBPACK_IMPORTED_MODULE_0___default.a.languages.dictionaryKeys;
 
-exports.__esModule = true;
-exports.default = void 0;
+const dictionary = {
+  languageCode: 'ru-RU',
+  [C.CONTEXTMENU_ITEMS_ROW_ABOVE]: 'Вставить строку выше',
+  [C.CONTEXTMENU_ITEMS_ROW_BELOW]: 'Вставить строку ниже',
+  [C.CONTEXTMENU_ITEMS_INSERT_LEFT]: 'Вставить столбец слева',
+  [C.CONTEXTMENU_ITEMS_INSERT_RIGHT]: 'Вставить столбец справа',
+  [C.CONTEXTMENU_ITEMS_REMOVE_ROW]: ['Удалить строку', 'Удалить строки'],
+  [C.CONTEXTMENU_ITEMS_REMOVE_COLUMN]: ['Удалить столбец', 'Удалить столбцы'],
+  [C.CONTEXTMENU_ITEMS_UNDO]: 'Отменить',
+  [C.CONTEXTMENU_ITEMS_REDO]: 'Повторить',
+  [C.CONTEXTMENU_ITEMS_READ_ONLY]: 'Только для чтения',
+  [C.CONTEXTMENU_ITEMS_CLEAR_COLUMN]: 'Очистить столбец',
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(2));
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT]: 'Выравнивание',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_LEFT]: 'По левому краю',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_CENTER]: 'По центру',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_RIGHT]: 'По правому краю',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_JUSTIFY]: 'По ширине',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_TOP]: 'По верхнему краю',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_MIDDLE]: 'По центру',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_BOTTOM]: 'По нижнему краю',
 
-var _handsontable = _interopRequireDefault(__webpack_require__(3));
+  [C.CONTEXTMENU_ITEMS_FREEZE_COLUMN]: 'Закрепить столбец',
+  [C.CONTEXTMENU_ITEMS_UNFREEZE_COLUMN]: 'Открепить столбец',
 
-var _dictionary;
+  [C.CONTEXTMENU_ITEMS_BORDERS]: 'Границы',
+  [C.CONTEXTMENU_ITEMS_BORDERS_TOP]: 'Сверху',
+  [C.CONTEXTMENU_ITEMS_BORDERS_RIGHT]: 'Справа',
+  [C.CONTEXTMENU_ITEMS_BORDERS_BOTTOM]: 'Снизу',
+  [C.CONTEXTMENU_ITEMS_BORDERS_LEFT]: 'Слева',
+  [C.CONTEXTMENU_ITEMS_REMOVE_BORDERS]: 'Удалить границу(ы)',
 
-var C = _handsontable.default.languages.dictionaryKeys;
-var dictionary = (_dictionary = {
-  languageCode: 'ru-RU'
-}, (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ROW_ABOVE, 'Вставить строку выше'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ROW_BELOW, 'Вставить строку ниже'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_INSERT_LEFT, 'Вставить столбец слева'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_INSERT_RIGHT, 'Вставить столбец справа'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_ROW, ['Удалить строку', 'Удалить строки']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_COLUMN, ['Удалить столбец', 'Удалить столбцы']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_UNDO, 'Отменить'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REDO, 'Повторить'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_READ_ONLY, 'Только для чтения'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_CLEAR_COLUMN, 'Очистить столбец'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT, 'Выравнивание'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_LEFT, 'По левому краю'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_CENTER, 'По центру'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_RIGHT, 'По правому краю'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_JUSTIFY, 'По ширине'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_TOP, 'По верхнему краю'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_MIDDLE, 'По центру'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_BOTTOM, 'По нижнему краю'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_FREEZE_COLUMN, 'Закрепить столбец'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_UNFREEZE_COLUMN, 'Открепить столбец'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS, 'Границы'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_TOP, 'Сверху'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_RIGHT, 'Справа'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_BOTTOM, 'Снизу'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_LEFT, 'Слева'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_BORDERS, 'Удалить границу(ы)'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ADD_COMMENT, 'Добавить комментарий'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_EDIT_COMMENT, 'Редактировать комментарий'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_COMMENT, 'Удалить комментарий'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_READ_ONLY_COMMENT, 'Комментарий только для чтения'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_MERGE_CELLS, 'Объединить ячейки'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_UNMERGE_CELLS, 'Разделить ячейки'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_COPY, 'Копировать'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_CUT, 'Вырезать'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_NESTED_ROWS_INSERT_CHILD, 'Вставить дочернюю строку'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_NESTED_ROWS_DETACH_CHILD, 'Отделить от родителя'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_HIDE_COLUMN, ['Скрыть столбец', 'Скрыть столбцы']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_SHOW_COLUMN, ['Показать столбец', 'Показать столбцы']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_HIDE_ROW, ['Скрыть строку', 'Скрыть строки']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_SHOW_ROW, ['Показать строку', 'Показать строки']), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NONE, 'Отсутствует'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_EMPTY, 'Пусто'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_EMPTY, 'Не пусто'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_EQUAL, 'Равно'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_EQUAL, 'Не равно'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_BEGINS_WITH, 'Начинается на'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_ENDS_WITH, 'Заканчивается на'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_CONTAINS, 'Содержит'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_CONTAIN, 'Не содержит'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_GREATER_THAN, 'Больше чем'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_GREATER_THAN_OR_EQUAL, 'Больше или равно'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_LESS_THAN, 'Меньше чем'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_LESS_THAN_OR_EQUAL, 'Меньше или равно'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_BETWEEN, 'Между'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_BETWEEN, 'Не между'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_AFTER, 'После'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_BEFORE, 'До'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_TODAY, 'Сегодня'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_TOMORROW, 'Завтра'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_YESTERDAY, 'Вчера'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_VALUES_BLANK_CELLS, 'Пустые ячейки'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_DIVS_FILTER_BY_CONDITION, 'Фильтр по условию'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_DIVS_FILTER_BY_VALUE, 'Фильтр по значению'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_LABELS_CONJUNCTION, 'И'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_LABELS_DISJUNCTION, 'Или'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_SELECT_ALL, 'Выбрать все'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_CLEAR, 'Убрать'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_OK, 'OK'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_CANCEL, 'Отмена'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_PLACEHOLDER_SEARCH, 'Поиск'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_PLACEHOLDER_VALUE, 'Значение'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_PLACEHOLDER_SECOND_VALUE, 'Второе значение'), _dictionary);
+  [C.CONTEXTMENU_ITEMS_ADD_COMMENT]: 'Добавить комментарий',
+  [C.CONTEXTMENU_ITEMS_EDIT_COMMENT]: 'Редактировать комментарий',
+  [C.CONTEXTMENU_ITEMS_REMOVE_COMMENT]: 'Удалить комментарий',
+  [C.CONTEXTMENU_ITEMS_READ_ONLY_COMMENT]: 'Комментарий только для чтения',
 
-_handsontable.default.languages.registerLanguageDictionary(dictionary);
+  [C.CONTEXTMENU_ITEMS_MERGE_CELLS]: 'Объединить ячейки',
+  [C.CONTEXTMENU_ITEMS_UNMERGE_CELLS]: 'Разделить ячейки',
 
-var _default = dictionary;
-exports.default = _default;
+  [C.CONTEXTMENU_ITEMS_COPY]: 'Копировать',
+  [C.CONTEXTMENU_ITEMS_CUT]: 'Вырезать',
 
-/***/ }),
+  [C.CONTEXTMENU_ITEMS_NESTED_ROWS_INSERT_CHILD]: 'Вставить дочернюю строку',
+  [C.CONTEXTMENU_ITEMS_NESTED_ROWS_DETACH_CHILD]: 'Отделить от родителя',
 
-/***/ 2:
-/***/ (function(module, exports) {
+  [C.CONTEXTMENU_ITEMS_HIDE_COLUMN]: ['Скрыть столбец', 'Скрыть столбцы'],
+  [C.CONTEXTMENU_ITEMS_SHOW_COLUMN]: ['Показать столбец', 'Показать столбцы'],
 
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
+  [C.CONTEXTMENU_ITEMS_HIDE_ROW]: ['Скрыть строку', 'Скрыть строки'],
+  [C.CONTEXTMENU_ITEMS_SHOW_ROW]: ['Показать строку', 'Показать строки'],
 
-  return obj;
-}
+  [C.FILTERS_CONDITIONS_NONE]: 'Отсутствует',
+  [C.FILTERS_CONDITIONS_EMPTY]: 'Пусто',
+  [C.FILTERS_CONDITIONS_NOT_EMPTY]: 'Не пусто',
+  [C.FILTERS_CONDITIONS_EQUAL]: 'Равно',
+  [C.FILTERS_CONDITIONS_NOT_EQUAL]: 'Не равно',
+  [C.FILTERS_CONDITIONS_BEGINS_WITH]: 'Начинается на',
+  [C.FILTERS_CONDITIONS_ENDS_WITH]: 'Заканчивается на',
+  [C.FILTERS_CONDITIONS_CONTAINS]: 'Содержит',
+  [C.FILTERS_CONDITIONS_NOT_CONTAIN]: 'Не содержит',
+  [C.FILTERS_CONDITIONS_GREATER_THAN]: 'Больше чем',
+  [C.FILTERS_CONDITIONS_GREATER_THAN_OR_EQUAL]: 'Больше или равно',
+  [C.FILTERS_CONDITIONS_LESS_THAN]: 'Меньше чем',
+  [C.FILTERS_CONDITIONS_LESS_THAN_OR_EQUAL]: 'Меньше или равно',
+  [C.FILTERS_CONDITIONS_BETWEEN]: 'Между',
+  [C.FILTERS_CONDITIONS_NOT_BETWEEN]: 'Не между',
+  [C.FILTERS_CONDITIONS_AFTER]: 'После',
+  [C.FILTERS_CONDITIONS_BEFORE]: 'До',
+  [C.FILTERS_CONDITIONS_TODAY]: 'Сегодня',
+  [C.FILTERS_CONDITIONS_TOMORROW]: 'Завтра',
+  [C.FILTERS_CONDITIONS_YESTERDAY]: 'Вчера',
 
-module.exports = _defineProperty;
+  [C.FILTERS_VALUES_BLANK_CELLS]: 'Пустые ячейки',
 
-/***/ }),
+  [C.FILTERS_DIVS_FILTER_BY_CONDITION]: 'Фильтр по условию',
+  [C.FILTERS_DIVS_FILTER_BY_VALUE]: 'Фильтр по значению',
 
-/***/ 3:
-/***/ (function(module, exports) {
+  [C.FILTERS_LABELS_CONJUNCTION]: 'И',
+  [C.FILTERS_LABELS_DISJUNCTION]: 'Или',
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__3__;
+  [C.FILTERS_BUTTONS_SELECT_ALL]: 'Выбрать все',
+  [C.FILTERS_BUTTONS_CLEAR]: 'Убрать',
+  [C.FILTERS_BUTTONS_OK]: 'OK',
+  [C.FILTERS_BUTTONS_CANCEL]: 'Отмена',
+
+  [C.FILTERS_BUTTONS_PLACEHOLDER_SEARCH]: 'Поиск',
+  [C.FILTERS_BUTTONS_PLACEHOLDER_VALUE]: 'Значение',
+  [C.FILTERS_BUTTONS_PLACEHOLDER_SECOND_VALUE]: 'Второе значение'
+};
+
+_handsontable__WEBPACK_IMPORTED_MODULE_0___default.a.languages.registerLanguageDictionary(dictionary);
+
+/* harmony default export */ __webpack_exports__["default"] = (dictionary);
+
 
 /***/ })
 

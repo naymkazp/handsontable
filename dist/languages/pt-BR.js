@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("../../handsontable")) : factory(root["Handsontable"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE__3__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE__1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 16);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -99,71 +99,123 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 1:
 /***/ (function(module, exports) {
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
+module.exports = __WEBPACK_EXTERNAL_MODULE__1__;
 
 /***/ }),
 
-/***/ 16:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 14:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _handsontable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _handsontable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_handsontable__WEBPACK_IMPORTED_MODULE_0__);
+/**
+ * @preserve
+ * Authors: Júlio C. Zuppa
+ * Last updated: Jan 12, 2018
+ *
+ * Description: Definition file for Portuguese - Brazil language-country.
+ */
 
 
-var _interopRequireDefault = __webpack_require__(1);
+const C = _handsontable__WEBPACK_IMPORTED_MODULE_0___default.a.languages.dictionaryKeys;
 
-exports.__esModule = true;
-exports.default = void 0;
+const dictionary = {
+  languageCode: 'pt-BR',
+  [C.CONTEXTMENU_ITEMS_ROW_ABOVE]: 'Inserir linha acima',
+  [C.CONTEXTMENU_ITEMS_ROW_BELOW]: 'Inserir linha abaixo',
+  [C.CONTEXTMENU_ITEMS_INSERT_LEFT]: 'Inserir coluna esquerda',
+  [C.CONTEXTMENU_ITEMS_INSERT_RIGHT]: 'Inserir coluna direita',
+  [C.CONTEXTMENU_ITEMS_REMOVE_ROW]: ['Excluir linha', 'Excluir linhas'],
+  [C.CONTEXTMENU_ITEMS_REMOVE_COLUMN]: ['Excluir coluna', 'Excluir colunas'],
+  [C.CONTEXTMENU_ITEMS_UNDO]: 'Desfazer',
+  [C.CONTEXTMENU_ITEMS_REDO]: 'Refazer',
+  [C.CONTEXTMENU_ITEMS_READ_ONLY]: 'Somente leitura',
+  [C.CONTEXTMENU_ITEMS_CLEAR_COLUMN]: 'Limpar coluna',
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(2));
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT]: 'Alinhamento',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_LEFT]: 'Esquerda',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_CENTER]: 'Centralizado',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_RIGHT]: 'Direita',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_JUSTIFY]: 'Justificado',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_TOP]: 'Superior',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_MIDDLE]: 'Meio',
+  [C.CONTEXTMENU_ITEMS_ALIGNMENT_BOTTOM]: 'Inferior',
 
-var _handsontable = _interopRequireDefault(__webpack_require__(3));
+  [C.CONTEXTMENU_ITEMS_FREEZE_COLUMN]: 'Congelar coluna',
+  [C.CONTEXTMENU_ITEMS_UNFREEZE_COLUMN]: 'Descongelar coluna',
 
-var _dictionary;
+  [C.CONTEXTMENU_ITEMS_BORDERS]: 'Bordas',
+  [C.CONTEXTMENU_ITEMS_BORDERS_TOP]: 'Superior',
+  [C.CONTEXTMENU_ITEMS_BORDERS_RIGHT]: 'Direita',
+  [C.CONTEXTMENU_ITEMS_BORDERS_BOTTOM]: 'Inferior',
+  [C.CONTEXTMENU_ITEMS_BORDERS_LEFT]: 'Esquerda',
+  [C.CONTEXTMENU_ITEMS_REMOVE_BORDERS]: 'Excluir bordas(s)',
 
-var C = _handsontable.default.languages.dictionaryKeys;
-var dictionary = (_dictionary = {
-  languageCode: 'pt-BR'
-}, (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ROW_ABOVE, 'Inserir linha acima'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ROW_BELOW, 'Inserir linha abaixo'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_INSERT_LEFT, 'Inserir coluna esquerda'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_INSERT_RIGHT, 'Inserir coluna direita'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_ROW, ['Excluir linha', 'Excluir linhas']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_COLUMN, ['Excluir coluna', 'Excluir colunas']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_UNDO, 'Desfazer'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REDO, 'Refazer'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_READ_ONLY, 'Somente leitura'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_CLEAR_COLUMN, 'Limpar coluna'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT, 'Alinhamento'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_LEFT, 'Esquerda'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_CENTER, 'Centralizado'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_RIGHT, 'Direita'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_JUSTIFY, 'Justificado'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_TOP, 'Superior'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_MIDDLE, 'Meio'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ALIGNMENT_BOTTOM, 'Inferior'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_FREEZE_COLUMN, 'Congelar coluna'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_UNFREEZE_COLUMN, 'Descongelar coluna'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS, 'Bordas'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_TOP, 'Superior'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_RIGHT, 'Direita'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_BOTTOM, 'Inferior'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_BORDERS_LEFT, 'Esquerda'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_BORDERS, 'Excluir bordas(s)'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_ADD_COMMENT, 'Incluir comentário'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_EDIT_COMMENT, 'Editar comentário'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_REMOVE_COMMENT, 'Remover comentário'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_READ_ONLY_COMMENT, 'Comentário somente leitura'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_MERGE_CELLS, 'Mesclar células'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_UNMERGE_CELLS, 'Desfazer mesclagem de células'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_COPY, 'Copiar'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_CUT, 'Recortar'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_NESTED_ROWS_INSERT_CHILD, 'Inserir linha filha'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_NESTED_ROWS_DETACH_CHILD, 'Desanexar da linha pai'), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_HIDE_COLUMN, ['Ocultar coluna', 'Ocultar colunas']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_SHOW_COLUMN, ['Exibir coluna', 'Exibir colunas']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_HIDE_ROW, ['Ocultar linha', 'Ocultar linhas']), (0, _defineProperty2.default)(_dictionary, C.CONTEXTMENU_ITEMS_SHOW_ROW, ['Exibir linha', 'Exibir linhas']), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NONE, 'Nenhum'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_EMPTY, 'É vazio'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_EMPTY, 'Não é vazio'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_EQUAL, 'É igual a'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_EQUAL, 'É diferente de'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_BEGINS_WITH, 'Começa com'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_ENDS_WITH, 'Termina com'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_CONTAINS, 'Contém'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_CONTAIN, 'Não contém'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_GREATER_THAN, 'Maior que'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_GREATER_THAN_OR_EQUAL, 'Maior ou igual a'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_LESS_THAN, 'Menor que'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_LESS_THAN_OR_EQUAL, 'Maior ou igual a'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_BETWEEN, 'Está entre'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_NOT_BETWEEN, 'Não está entre'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_AFTER, 'Depois'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_BEFORE, 'Antes'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_TODAY, 'Hoje'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_TOMORROW, 'Amanhã'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_CONDITIONS_YESTERDAY, 'Ontem'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_VALUES_BLANK_CELLS, 'Células vazias'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_DIVS_FILTER_BY_CONDITION, 'Filtrar por condição'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_DIVS_FILTER_BY_VALUE, 'Filtrar por valor'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_LABELS_CONJUNCTION, 'E'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_LABELS_DISJUNCTION, 'Ou'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_SELECT_ALL, 'Selecionar tudo'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_CLEAR, 'Limpar'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_OK, 'OK'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_CANCEL, 'Cancelar'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_PLACEHOLDER_SEARCH, 'Localizar'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_PLACEHOLDER_VALUE, 'Valor'), (0, _defineProperty2.default)(_dictionary, C.FILTERS_BUTTONS_PLACEHOLDER_SECOND_VALUE, 'Segundo valor'), _dictionary);
+  [C.CONTEXTMENU_ITEMS_ADD_COMMENT]: 'Incluir comentário',
+  [C.CONTEXTMENU_ITEMS_EDIT_COMMENT]: 'Editar comentário',
+  [C.CONTEXTMENU_ITEMS_REMOVE_COMMENT]: 'Remover comentário',
+  [C.CONTEXTMENU_ITEMS_READ_ONLY_COMMENT]: 'Comentário somente leitura',
 
-_handsontable.default.languages.registerLanguageDictionary(dictionary);
+  [C.CONTEXTMENU_ITEMS_MERGE_CELLS]: 'Mesclar células',
+  [C.CONTEXTMENU_ITEMS_UNMERGE_CELLS]: 'Desfazer mesclagem de células',
 
-var _default = dictionary;
-exports.default = _default;
+  [C.CONTEXTMENU_ITEMS_COPY]: 'Copiar',
+  [C.CONTEXTMENU_ITEMS_CUT]: 'Recortar',
 
-/***/ }),
+  [C.CONTEXTMENU_ITEMS_NESTED_ROWS_INSERT_CHILD]: 'Inserir linha filha',
+  [C.CONTEXTMENU_ITEMS_NESTED_ROWS_DETACH_CHILD]: 'Desanexar da linha pai',
 
-/***/ 2:
-/***/ (function(module, exports) {
+  [C.CONTEXTMENU_ITEMS_HIDE_COLUMN]: ['Ocultar coluna', 'Ocultar colunas'],
+  [C.CONTEXTMENU_ITEMS_SHOW_COLUMN]: ['Exibir coluna', 'Exibir colunas'],
 
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
+  [C.CONTEXTMENU_ITEMS_HIDE_ROW]: ['Ocultar linha', 'Ocultar linhas'],
+  [C.CONTEXTMENU_ITEMS_SHOW_ROW]: ['Exibir linha', 'Exibir linhas'],
 
-  return obj;
-}
+  [C.FILTERS_CONDITIONS_NONE]: 'Nenhum',
+  [C.FILTERS_CONDITIONS_EMPTY]: 'É vazio',
+  [C.FILTERS_CONDITIONS_NOT_EMPTY]: 'Não é vazio',
+  [C.FILTERS_CONDITIONS_EQUAL]: 'É igual a',
+  [C.FILTERS_CONDITIONS_NOT_EQUAL]: 'É diferente de',
+  [C.FILTERS_CONDITIONS_BEGINS_WITH]: 'Começa com',
+  [C.FILTERS_CONDITIONS_ENDS_WITH]: 'Termina com',
+  [C.FILTERS_CONDITIONS_CONTAINS]: 'Contém',
+  [C.FILTERS_CONDITIONS_NOT_CONTAIN]: 'Não contém',
+  [C.FILTERS_CONDITIONS_GREATER_THAN]: 'Maior que',
+  [C.FILTERS_CONDITIONS_GREATER_THAN_OR_EQUAL]: 'Maior ou igual a',
+  [C.FILTERS_CONDITIONS_LESS_THAN]: 'Menor que',
+  [C.FILTERS_CONDITIONS_LESS_THAN_OR_EQUAL]: 'Maior ou igual a',
+  [C.FILTERS_CONDITIONS_BETWEEN]: 'Está entre',
+  [C.FILTERS_CONDITIONS_NOT_BETWEEN]: 'Não está entre',
+  [C.FILTERS_CONDITIONS_AFTER]: 'Depois',
+  [C.FILTERS_CONDITIONS_BEFORE]: 'Antes',
+  [C.FILTERS_CONDITIONS_TODAY]: 'Hoje',
+  [C.FILTERS_CONDITIONS_TOMORROW]: 'Amanhã',
+  [C.FILTERS_CONDITIONS_YESTERDAY]: 'Ontem',
 
-module.exports = _defineProperty;
+  [C.FILTERS_VALUES_BLANK_CELLS]: 'Células vazias',
 
-/***/ }),
+  [C.FILTERS_DIVS_FILTER_BY_CONDITION]: 'Filtrar por condição',
+  [C.FILTERS_DIVS_FILTER_BY_VALUE]: 'Filtrar por valor',
 
-/***/ 3:
-/***/ (function(module, exports) {
+  [C.FILTERS_LABELS_CONJUNCTION]: 'E',
+  [C.FILTERS_LABELS_DISJUNCTION]: 'Ou',
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__3__;
+  [C.FILTERS_BUTTONS_SELECT_ALL]: 'Selecionar tudo',
+  [C.FILTERS_BUTTONS_CLEAR]: 'Limpar',
+  [C.FILTERS_BUTTONS_OK]: 'OK',
+  [C.FILTERS_BUTTONS_CANCEL]: 'Cancelar',
+
+  [C.FILTERS_BUTTONS_PLACEHOLDER_SEARCH]: 'Localizar',
+  [C.FILTERS_BUTTONS_PLACEHOLDER_VALUE]: 'Valor',
+  [C.FILTERS_BUTTONS_PLACEHOLDER_SECOND_VALUE]: 'Segundo valor'
+};
+
+_handsontable__WEBPACK_IMPORTED_MODULE_0___default.a.languages.registerLanguageDictionary(dictionary);
+
+/* harmony default export */ __webpack_exports__["default"] = (dictionary);
+
 
 /***/ })
 
